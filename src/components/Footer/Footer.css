@@ -1,0 +1,13 @@
+.footer {
+  padding: 2rem 2rem;
+}
+.footer-nav-list {
+  display: flex;
+  justify-content: space-between;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  color: black;
+}

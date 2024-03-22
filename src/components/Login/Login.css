@@ -1,0 +1,57 @@
+.login-outer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.login-outer .login-inner {
+  padding: 1rem 2rem;
+  min-width: 30%;
+}
+.login-outer .login-inner img {
+  margin-bottom: 1rem;
+}
+.login-outer .login-inner h1 {
+  margin-bottom: 1rem;
+}
+.login-outer .login-inner form {
+  margin-top: 10px;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.login-outer .login-inner form input {
+  outline: none;
+  padding: 0.7rem 0.3rem;
+  border: 0.5px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.login-outer .login-inner a {
+  color: #1da1f2;
+}
+.login-outer .login-inner a:hover {
+  text-decoration: underline;
+}
+
+.login-outer .login-inner form input[type="submit"] {
+  background-color: #1da1f2;
+  color: #fff;
+  border: 0;
+  padding: 0.8rem;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+.login-outer .login-inner form input[type="submit"]:hover {
+  background-color: #1a8cd8;
+}
+.login-outer .login-inner .linked {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  color: #1da1f2;
+}

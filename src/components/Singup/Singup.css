@@ -1,0 +1,84 @@
+.singup-outer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.singup-outer .singup-inner {
+  padding: 2rem;
+  max-width: 45%;
+  /* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+} */
+}
+.singup-outer .singup-inner form {
+  margin-top: 10px;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.singup-outer .singup-inner form input {
+  outline: none;
+  padding: 0.5rem 0.3rem;
+  outline: none;
+  padding: 0.7rem 0.3rem;
+  border: 0.5px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.singup-outer .singup-inner form input[type="submit"] {
+  background-color: #1da1f2;
+  color: #fff;
+  border: 0;
+  padding: 0.8rem;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+.singup-outer .singup-inner form input[type="submit"]:hover {
+  background-color: #1a8cd8;
+}
+.singup-outer .singup-inner .linked {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  color: #1da1f2;
+}
+.date-month-year {
+  display: flex;
+  justify-content: space-between;
+}
+.date-month-year select {
+  width: 30%;
+  outline: none;
+  padding: 0.8rem 1rem;
+}
+.singup-outer .singup-inner .dob {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 1rem;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+.singup-outer .singup-inner .dob-text {
+  color: #9f9f9f;
+
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+.singup-outer .singup-inner .use-email {
+  cursor: pointer;
+  color: #1da1f2;
+  margin-bottom: 1rem;
+}
+.singup-outer .singup-inner a {
+  color: #1da1f2;
+}
+.singup-outer .singup-inner a:hover {
+  text-decoration: underline;
+}
+.singup-outer .singup-inner .img-box {
+  text-align: center;
+  margin-bottom: 1rem;
+}
